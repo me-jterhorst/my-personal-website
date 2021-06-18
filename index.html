@@ -4,102 +4,103 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="/css/style.css" />
     <title>Jakob ter Horst | Personal Website</title>
   </head>
   <body>
-    <header class="top">
-      <div class="top__logo">
-        <img src="" alt="Logo" class="top__logo__img" />
+    <!-- Head Element -->
+    <header id="top">
+      <div class="top__head">
+        <figure class="top__head__logo">
+          <img
+            src="http://jterhorst.de/img/assets/logo.svg"
+            alt="Logo"
+            class="top__head__logo__img"
+          />
+        </figure>
+
+        <nav>
+          <ul class="top__head__nav">
+            <li><a href="#top">Welcome</a></li>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#social">Tech Stack</a></li>
+            <li><a href="#social">Links of Interest</a></li>
+          </ul>
+        </nav>
       </div>
-      <nav>
-        <ul class="top__nav">
-          <li><a href="#about">About Me </a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#stack">Tech Stack</a></li>
-          <li><a href="#cv">Links of Interest</a></li>
+
+      <div class="top__content">
+        <h3>Jakob ter Horst</h3>
+        <h1>Moin Moin & Hallo</h1>
+      </div>
+
+      <div class="top__legal">
+        <ul class="top__legal__list">
+          <li><a href="#">Datenschutz</a></li>
+          <li><a href="#">Impressum</a></li>
+          <li>©: 17-06-2021</li>
+          <li>Neue Fische 21-4-EN</li>
         </ul>
-      </nav>
+      </div>
     </header>
 
-    <main>
-      <section id="about">
-        <div class="about__hero">
-          <img class="about__hero__img" src="" alt="" />
-        </div>
-        <div class="about__content">
-          <h1>Moin Moin und Hallo</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam,
-            doloremque! Officia distinctio dolores rerum omnis unde
-            consequuntur. Fugiat tempora, soluta possimus quas eum quia
-            excepturi quo aliquam vero provident iste officia magni dolorem amet
-            veniam magnam. Tempore laudantium aperiam impedit, expedita earum
-            non quos assumenda delectus deleniti laborum nemo, aliquid
-            doloremque quo et pariatur accusamus numquam quibusdam fugiat dolor
-            corrupti dignissimos architecto! Placeat praesentium debitis
-            suscipit maiores voluptatem laborum perferendis, unde accusamus vel
-            ullam ipsam nobis dignissimos tempore voluptatibus quia excepturi
-            tenetur magni illo. Quaerat, voluptate eaque! Ut laboriosam aliquam
-            incidunt voluptas? Eius quam illum, ea beatae in vitae quidem dicta
-            commodi! Et excepturi accusamus dicta assumenda mollitia nostrum
-            tempora ullam, distinctio voluptatum optio maiores modi deserunt.
-            Nulla, numquam quasi!
-          </p>
-        </div>
+    <!-- Hero Image -->
+    <article id="hero">
+      <img
+        class="hero__img"
+        src="http://jterhorst.de/img/Website-Kontakt-Sketch_small.gif"
+        alt="Kontaktbild"
+      />
+    </article>
+
+    <!-- Sidekick Image -->
+    <aside id="sidekick">
+      <img
+        class="sidekick__img"
+        src="http://jterhorst.de/img/Jakob_Bewerbungsbild.jpg"
+        alt="Jakob ter Horst Bewerbungsbild"
+      />
+    </aside>
+
+    <!-- About Text -->
+    <main id="about">
+      <section class="about__content">
+        <h2>Hire Me</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+          repellendus laborum voluptatem modi maxime nisi porro sint voluptates
+          officia debitis nostrum itaque maiores, earum, tenetur culpa
+          voluptatum neque nam repellat id commodi saepe facere hic quod.
+          Maiores voluptatibus laudantium adipisci.
+        </p>
       </section>
-
-      <section id="portfolio">
-        <div class="portfolio__card">
-          <img class="portfolio__card__img" src="" alt="Hero" />
-        </div>
-        <div class="portfolio__card__content">
-          <h2>Portfolio Headline</h2>
-          <ol>
-            <li>Projekt 1</li>
-            <li>Projekt 2</li>
-            <li>Projekt 3</li>
-            <li>Projekt 4</li>
-            <li>Projekt 5</li>
-          </ol>
-        </div>
-      </section>
-
-      <section id="stack">
-        <div class="stack__card">
-          <img class="stack__card__img" src="" alt="" />
-        </div>
-        <div class="stack__card__content">
-          <h2>Stack Timeline</h2>
-          <ul>
-            <li>Projekt 1</li>
-            <li>Projekt 2</li>
-            <li>Projekt 3</li>
-            <li>Projekt 4</li>
-            <li>Projekt 5</li>
-          </ul>
-        </div>
-      </section>
-
-      <aside id="cv">
-        <div>
-          <button>Lebenslauf</button>
-        </div>
-
-        <div>
-          <button>Zertifikate</button>
-        </div>
-        <div>
-          <button>Anschreiben</button>
-        </div>
-      </aside>
     </main>
-    <footer>
-      <ul>
-        <li><a href="#">Datenschutz</a></li>
-        <li><a href="#">Impressum</a></li>
-        <li>Copyright: 17.06.2021</li>
-        <li>Jakob ter Horst</li>
+
+    <!-- Footer Area -->
+    <footer id="social">
+      <ul class="social__stack">
+        <h2>Tech Stack</h2>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Git / Github</li>
       </ul>
+
+      <nav class="social__menu">
+        <a href="https://jterhorst.de" target="_blank">
+          <img src="img/browser.png" alt="Website Icon" />
+        </a>
+        <a
+          href="https://www.xing.com/profile/Jakob_terHorst/cv"
+          target="_blank"
+        >
+          <img src="img/xing.png" alt="Website Icon" />
+        </a>
+        <a href="https://github.com/me-jterhorst" target="_blank">
+          <img src="img/github.png" alt="Website Icon"
+        /></a>
+      </nav>
     </footer>
   </body>
 </html>
